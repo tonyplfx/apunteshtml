@@ -1,0 +1,15 @@
+Existen diferentes etiquetas semanticas los cuales nos ayudan a tener una mejor organización dentro de nuestro 
+cuerpo y cabecera de nuestra página web
+
+ejemplo:
+
+1.- main: contenido principal dentro del sitio web.
+2.-header: representa la cabecera 
+3.-footer: footer represemta el pie de pagina o de sección de cada sección 
+4.-nav: etiqueta semantica para la sección de navegación 
+5.-article: una eituqeta que se autocontiene el mismo
+6.-section:representa una seccion del contenido que se contiene sola 
+7.-aside: representa un contenido complementario
+8.-address representa una dirección 
+Las etiquetas semanticas y su organización va ser muy subjetiva en cuanot a su utilización 
+
