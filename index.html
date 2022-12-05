@@ -35,10 +35,178 @@
       Por último tenemos a la etiqueta footer, la cual nos permite darle una sección final a nuestra página y así tener un tipo de pie de pagina con información adicional, sin embargo, que no es tan relevante como la sección main o aside
   </footer>
   <hr>
-  <h3>Scripts en html</h3>
+  <h2>Scripts en html</h2>
+  <p>Dentro de esta sección empezamos a invocar hojas de codigo js y para poder visualizarlo, necesitaremos la funcioón de inspeccionar de nuestro navegador</p> <br>
   <!--Asi como el linkeo de las etiquetas de estilos por buenas practicas deben de ir en la parte del head, las referencias del codigo script debe de ir en la parte inferior del documento, casi siempre en la parte antes del final del body.-->
+  <hr>
+  <h2>Imagenes</h2>
+  <img src="img/mario.png" alt="mario">
+  <hr>
+  <img src="img/patricio.gif" alt="patricio">
+  <hr>
+  <img src="img/tigre.jpg" alt="tigre">
+  <hr>
+  <img src="img/youtube.svg" alt="youtube">
+  <img src="img/svg-gobbler.svg" alt="svg">
+  <hr>
+  <h2>SVG</h2>
+  <p>Tenemos el linkeado de las dos formas para poder acceder a los formatos svg, tanto con codigo como en imagen</p>
+      <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M5 7H19C19.5523 7 20 7.44771 20 8V16C20 16.5523 19.5523 17 19 17H5C4.44772 17 4 16.5523 4 16V8C4 7.44772 4.44772 7 5 7ZM2 8C2 6.34315 3.34315 5 5 5H19C20.6569 5 22 6.34315 22 8V16C22 17.6569 20.6569 19 19 19H5C3.34315 19 2 17.6569 2 16V8ZM10 9L14 12L10 15V9Z"
+        fill="currentColor"
+      /> </svg>
+  <hr>
+<h2>Figuras</h2>
+<figure>
+  <img src="img/mario.png" alt="imagen de mario bros">
+  <figcaption>imagen de mario bros</figcaption>
+</figure>
+<hr>
+<h2>Listas Ordenadas</h2>
+<h3>Estaciones del año </h3>
+<ol>
+  <li>primavera</li>
+  <li>verano</li>
+  <li>otoño</li>
+  <li>invierno</li>
+</ol>
+
+<ol start="4">
+  <li>primavera</li>
+  <li>verano</li>
+  <li>otoño</li>
+  <li>invierno</li>
+</ol>
+
+<ol reversed>
+  <li>primavera</li>
+  <li>verano</li>
+  <li>otoño</li>
+  <li>invierno</li>
+</ol>
+
+<ol type="A">
+  <li>primavera</li>
+  <li>verano</li>
+  <li>otoño</li>
+  <li>invierno</li>
+</ol>
+
+<ol type="I">
+  <li>primavera</li>
+  <li>verano</li>
+  <li>otoño</li>
+  <li>invierno</li>
+</ol>
+<hr>
+
+<h2>Listas desordenadas</h2>
+<h3>Cosas por hacer</h3>
+<ul type="circle">
+  <li>Hacer tarea</li>
+  <li>Estudiar html</li>
+  <li>Avanzar en la tesis</li>
+</ul>
+
+<ul type="square">
+  <li>Hacer tarea</li>
+  <li>Estudiar html</li>
+  <li>Avanzar en la tesis</li>
+</ul>
+
+<ul>
+  <li>Hacer tarea</li>
+  <li>Estudiar html</li>
+  <li>Avanzar en la tesis</li>
+</ul>
+<hr>
+
+<h2>Listas de definición</h2>
+<!--Es una herramienta poco utilizada sin embargo tiene un uso en especifico, la cual podría ser una creación de un glosario-->
+<dl>
+  <dt>HTML</dt>
+  <dd>Es un lenguaje de marcado que define el contenido de la web</dd>
+  <dt>CSS</dt>
+  <dd>Lenguaje de definición de estilos en terminos de desrrollo web</dd>
+  <dt>JavaScript</dt>
+  <dd>Es el lenguaje de la web</dd>
+</dl>
+<hr>
+<h2>Tablas</h2>
+<table>
+  <tr>
+    <td>Nombre</td>
+    <td>Constelación</td>
+    <td>Tipo<td>
+  </tr>
+
+  <tr>
+    <td>Ikki </td>
+    <td>Fenix</td>
+    <td>Bronce</td>
+  </tr>
+
+  <tr>
+    <td>Shaina</td>
+    <td>Ofiuco</td>
+    <td>Plata</td>
+  </tr>
+
+  <tr>
+    <td>Saga</td>
+    <td>Geminis</td>
+    <td>Dorado</td>
+  </tr>
+</table>
+<br><br><br>
+<!--Una vez que vimos la parte de una tabla basica, procederemos a realizar una tabla más compleja con secciones de tabla a partir de aquí-->
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">Tabla de los santos de athena
+      </th> <!--Este atribuito colspan y rowspan nos permite convinar las filas y las columnas para que tengamos una mejor organización a la hora de montar las tablas-->
+    </tr>
+    <th>Nombre</th>
+    <th>Constelación</th>
+    <th>Tipo<th>
+  </thead>
+  <tbody>
+<tr>
+    <td>Ikki </td>
+    <td>Fenix</td>
+    <td>Bronce</td>
+  </tr>
+
+    <tr>
+    <td>Shaina</td>
+    <td>Ofiuco</td>
+    <td>Plata</td>
+  </tr>
+
+    <tr>
+    <td>Saga</td>
+    <td>Geminis</td>
+    <td>Dorado</td>
+  </tr>
+
+  </tbody>
+  <tfoot>
+
+  </tfoot>
+</table>
+<hr>
     <script>
       console.log("Hola, estamos aprendiendo html");
     </script>
+    <script src="assets/codigo.js"></script>
 </body>
 </html>
