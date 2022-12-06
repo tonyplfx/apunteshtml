@@ -6,6 +6,10 @@
   <meta name="description" content="En esta pagina estamos aprendiendo los fundamentos de HTML">
   <title>aprendiendo html</title>
   <link rel="stylesheet" href="assets/estilos.css">
+  <link rel="canonical" href="http:/tudominio.com/la-url-canonica">
+  <link rel="icon" href="img/mario.png">
+  <link rel="apple-touch-icon" href="img/mario.png">
+  <meta name="theme-color" content="#FF0000">
 </head>
 <body>
   <header>  
@@ -306,6 +310,74 @@ Sobre todo son más esponsivos en las pantalla táctiles-->
 </select>
 <br>
 <textarea name="" id="" cols="30" rows="10" placeholder="Hola este es un place holder"></textarea>
+<hr>
+<h3>Selects, radio y buttons</h3>
+<form action="">
+<p>Elige tu idioma</p>
+<select name="idioma" id="">
+<option value="">Elige una opcion</option>
+<option value="es" selected >Español</option>
+<option value="en">Ingles</option>
+<option value="fr">Frances</option>
+<option value="it">Italiano</option>
+<option value="pt">Portugues</option>
+</select>
+<input type="submit">
+<input type="reset">
+
+<br>
+<p>elige tu lenguaje de programación favorito</p>
+<input type="radio" name="lenguaje" id="radio-js" value="js" checked required>
+<label for="radio-js">JavaScript</label>
+<input type="radio" name="lenguaje" id="python" value="ph">
+<label for="radio-py">Python</label>
+<input type="radio" name="lenguaje" id="radio-php" value="php">
+<label for="radio-php">JavaScript</label>
+<p>Elige tus intereses:</p>
+<label>
+  <input type="checkbox" name="interes-deportes" value="deportes">
+  Deportes
+</label>
+<label>
+  <input type="checkbox" name="interes-Finanzas" value="Finanzas">
+  Finanzas
+</label>
+<label>
+  <input type="checkbox" name="interes-Ecologia" value="Ecologia">
+  Ecologia
+</label>
+<label>
+<input type="checkbox" name="interes-salud" value="salud">
+salud  
+</label>
+<P>
+  <label for="terminos">
+    <input type="checkbox" name="terminos" required>
+      aceptas terminos y condiciones ?
+  </label>
+</P>
+<input type="submit">
+<input type="reset">
+</form>
+<hr>
+<h2>Formularios de contacto</h2>
+<form action="https://formsubmit.co/manuel_palafoxm@outloo.es" method="post">
+  <input type="text" name="nombre" placeholder="Escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Nombre solo acepta letras y espacios en blanco">
+  <input type="email" value="" placeholder="Escribe tu correo" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"  title="formato de correo unvalido" required>
+  <br>
+  <textarea name="comentario" cols="30" rows="10" required></textarea>
+  <input type="submit" name="enviar">
+</form>
+<hr>
+<h2>Data atributes</h2>
+<ul>
+  <li data-id="1" data-name="spring">Primvera</li>
+  <li data-id="2" data-name="summer">Verano</li>
+  <li data-id="3" data-name="autumn">Otoño</li>
+  <li data-id="4" data-name="winter">Invierno</li>
+</ul>
+<hr>
+<h2>MetaEtiquetas para SEO y Moviles</h2>
 
 
 <hr>
